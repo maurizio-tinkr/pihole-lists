@@ -1,0 +1,153 @@
+NOTICE
+
+These block lists are a compilation: merged, filtered and deduplicated from the upstream projects
+named in each list's header. The compilation is licensed under the GNU General Public License,
+version 3 only (GPL-3.0-only); the full text is in LICENSE. It is GPL-3.0 because two of its
+upstreams, HaGeZi DNS Blocklists (https://github.com/hagezi/dns-blocklists) and oisd
+(https://github.com/sjhgvr/oisd), are published under GPL-3.0.
+
+Upstream projects, with their licences:
+
+  HaGeZi DNS Blocklists       https://github.com/hagezi/dns-blocklists        GPL-3.0
+  oisd                        https://github.com/sjhgvr/oisd                  GPL-3.0
+  The Block List Project      https://github.com/blocklistproject/Lists       Unlicense
+  ShadowWhisperer BlockLists  https://github.com/ShadowWhisperer/BlockLists   Unlicense
+  StevenBlack hosts           https://github.com/StevenBlack/hosts            MIT
+  anti-AD                     https://github.com/privacy-protection-tools/anti-AD  MIT
+  hostsVN                     https://github.com/bigdargon/hostsVN            MIT
+  GoodbyeAds                  https://github.com/jerryn70/GoodbyeAds          MIT
+
+Third-party lists inside the upstreams
+
+Some upstream projects are themselves merges of third-party lists, which remain under their own
+terms:
+
+- StevenBlack hosts merges, according to its README and its data/*/update.json files: AdAway
+  (https://adaway.org/, CC BY 3.0); add.2o7Net, add.Dead, add.Risk, add.Spam and UncheckyAds
+  (https://github.com/FadeMind/hosts.extras, MIT); Badd Boyz Hosts
+  (https://github.com/mitchellkrogza/Badd-Boyz-Hosts, MIT); hostsVN
+  (https://github.com/bigdargon/hostsVN, MIT); KADhosts (https://kadantiscam.netlify.app/,
+  CC BY-SA 4.0); minecraft-hosts (https://github.com/jamiemansfield/minecraft-hosts, CC0-1.0);
+  MVPS hosts file (https://winhelp2002.mvps.org/, CC BY-NC-SA 4.0); Dan Pollock's
+  someonewhocares hosts (https://someonewhocares.org/hosts/, non-commercial with attribution);
+  Tiuxo hostlist (https://github.com/tiuxo/hosts, CC BY 4.0); URLHaus (https://urlhaus.abuse.ch/,
+  CC0); yoyo.org (https://pgl.yoyo.org/adservers/, no licence stated); and Steven Black's own
+  list (MIT).
+- anti-AD merges lists it credits in its README, among them EasyList (https://easylist.to/),
+  AdGuard Filters (https://github.com/AdguardTeam/AdguardFilters), AWAvenue-Ads-Rule, v2fly
+  domain-list-community, urlhaus-filter, neohosts, yhosts, cjxlist, ADgk, adblock-nocoin-list,
+  CoinBlockerLists, WindowsSpyBlocker and ACL4SSR. anti-AD does not state their licences.
+
+GPL-3.0 applies to this compilation. It grants no rights in upstream data beyond what that data's
+own licence grants: anyone building on the data directly must check those terms. These lists are
+provided free of charge and for non-commercial use.
+
+MIT licences
+
+The MIT licence requires its copyright notice and permission notice in all copies. Each MIT
+project's licence follows verbatim, as read from its repository on 25 September 2026.
+
+----------------------------------------------------------------------
+StevenBlack hosts -- https://github.com/StevenBlack/hosts (license.txt)
+----------------------------------------------------------------------
+
+The MIT License (MIT)
+
+Copyright © 2023 Steven Black
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the “Software”), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+----------------------------------------------------------------------
+anti-AD -- https://github.com/privacy-protection-tools/anti-AD (LICENSE)
+----------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2017-2019 gently
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----------------------------------------------------------------------
+hostsVN -- https://github.com/bigdargon/hostsVN (LICENSE)
+----------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 BigDargon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----------------------------------------------------------------------
+GoodbyeAds -- https://github.com/jerryn70/GoodbyeAds (LICENSE)
+----------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2018 Jerry Joseph
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Built 2026-09-25 19:52 UTC from the upstreams named in each list.
